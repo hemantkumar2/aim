@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-
+import AboutContent from './Components/AboutContent'
+import './Home.css'
 
 const Home = () => {
   return (
@@ -48,33 +49,54 @@ const Home = () => {
       </div>
       <div className="container">
         <div className="row mt-5">
-          <div className="col-3">
+          <div className="col-4">
+            <div className="card card-background">
+              <div className="card-body">
+                <div className="card-title">
+                  <strong>Class VI to XII </strong>
+                </div>
+                <div className="card-body">
+                  We provide tuition classes for all classes from 6th to 12th.
+                  All subjects for class 6th to 10th and PCB, PCM, and commerce for class 11th and 12th.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-4">
+            <div className="card card-background">
+              <div className="card-body">
+                <div className="card-title">
+                  <strong>Government jobs </strong>
+                </div>
+                <div className="card-body">
+                  We provide coaching classes for all government job aspirants like SSC,Railway,Bank, and CG Vyapam exams.
+                  We have best faculty for Aptitude, Reasoning, English and General Studies.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-4">
+            <div className="card card-background">
+              <div className="card-body">
+                <div className="card-title">
+                  <strong> </strong>
+                </div>
+                <div className="card-body">
+                  We provide tuition classes for all classes from 6th to 12th.
+                  All subjects for class 6th to 10th and PCB, PCM, and commerce for class 11th and 12th.
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="col-4">
             <div className="card">
               <div className="card-body">
               </div>
             </div>
-          </div>
-          <div className="col-3">
-            <div className="card">
-              <div className="card-body">
-              </div>
-            </div>
-          </div>
-          <div className="col-3">
-            <div className="card">
-              <div className="card-body">
-              </div>
-            </div>
-          </div>
-          <div className="col-3">
-            <div className="card">
-              <div className="card-body">
-              </div>
-            </div>
-          </div>
+          </div> */}
         </div>
       </div>
-
+      <AboutContent />
     </div>
   );
 }

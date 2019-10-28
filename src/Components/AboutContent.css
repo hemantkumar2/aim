@@ -1,0 +1,9 @@
+.about-content-font{
+  font-size: 24px;
+}
+
+.about-content{
+  background: #e4f9f5;
+  z-index: 999;
+  border: none;
+}
