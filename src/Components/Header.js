@@ -1,12 +1,12 @@
 import React from 'react';
-import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Header.css'
 const Header = () => {
   return (
     <div>
       <Navbar expand="lg" className='header-nav-color'>
-        <Navbar.Brand href="#home"><Link className='header-font-color' to='/'>Brand</Link></Navbar.Brand>
+        <Navbar.Brand href="#home"><Link className='header-font-color' to='/'>Aim Career Institute</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
