@@ -59,6 +59,7 @@ const Home = () => {
                 <div className="card-body">
                   We provide tuition classes for all classes from 6th to 12th.
                   All subjects for class 6th to 10th and PCB, PCM, and commerce for class 11th and 12th.
+                  We have experienced group of teachers, who has long experience of teaching in the specific field.
                 </div>
               </div>
             </div>
