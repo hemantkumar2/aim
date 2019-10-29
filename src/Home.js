@@ -6,7 +6,7 @@ import './Home.css'
 const Home = () => {
   return (
     <div>
-      <div className='container-fluid mt-5'>
+      <div className='container-fluid carousel-margin'>
         <Carousel interval='2000'>
           <Carousel.Item>
             <img

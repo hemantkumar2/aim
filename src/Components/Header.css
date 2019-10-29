@@ -1,5 +1,6 @@
 .header-nav{
   background: #11999e;
+  /* background: #30e3ca; */
 
 }
 
@@ -20,4 +21,10 @@
 .header-links:hover{
   color: #f1f1f1ce;
   text-decoration: none;
+}
+
+.vertical{
+  border-right: 1px solid rgba(241,241,241,.2);
+  height: 60px;
+  
 }

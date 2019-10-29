@@ -1,7 +1,11 @@
-.jumbotron{
-  height: 300px;
+.jumbotron-fluid{
   background-repeat: no-repeat;
-  background-size:cover;
-
+  /* background-image: url(/public/assets/pic4.jpg); */
+  background-size:100%,100%;
+}
+.img-fluid{
+height: 300px;
+width: 100%;
+filter: blur(2px) grayscale(.2);
 
 }
