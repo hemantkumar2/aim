@@ -1,0 +1,28 @@
+.footer{
+  height: 200px;
+  background: #40514e;
+}
+.footer-content{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.footer-content:hover{
+  color: #f9f9f9ad;
+  text-decoration: none;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+#wrap {
+  padding: 10px;
+  min-height: -webkit-calc(100% - 100px);     /* Chrome */
+  min-height: -moz-calc(100% - 100px);     /* Firefox */
+  min-height: calc(100% - 100px);     /* native */
+}
+.footer {
+  position: relative;
+  clear:both;
+}

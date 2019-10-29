@@ -47,6 +47,7 @@ const Home = () => {
           </Carousel.Item>
         </Carousel>
       </div>
+      <AboutContent />
       <div className="container">
         <div className="row mt-5">
           <div className="col-4">
@@ -79,24 +80,18 @@ const Home = () => {
             <div className="card card-background">
               <div className="card-body">
                 <div className="card-title">
-                  <strong> </strong>
+                  <strong>College Tuition </strong>
                 </div>
                 <div className="card-body">
-                  We provide tuition classes for all classes from 6th to 12th.
-                  All subjects for class 6th to 10th and PCB, PCM, and commerce for class 11th and 12th.
+                  We provide tuition classes for college student also.
+                  All subjects for commerce and Arts stream. We have best faculty for the same who has broad knowledge of
+                  subjects and veteran skills for teaching.
                 </div>
               </div>
             </div>
           </div>
-          {/* <div className="col-4">
-            <div className="card">
-              <div className="card-body">
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
-      <AboutContent />
     </div>
   );
 }

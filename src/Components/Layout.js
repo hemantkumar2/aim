@@ -11,12 +11,12 @@ import Classroom from '../Classroom'
 import StudentSection from '../StudentSection'
 import Notification from '../Notification'
 import Media from '../Media'
+import Jumbotron from '../Components/Jumbotron'
 
 const Layout = () => {
   return (
     <div>
       <Header />
-
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/contact' component={Contact} />
