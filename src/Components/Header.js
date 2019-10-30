@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
   return (
     <div>
-      <Navbar expand="lg" className='header-nav fixed-top'>
+      <Navbar expand="lg" className='header-nav fixed-top '>
         <Navbar.Brand href="#home"><Link className='header-nav-brand' to='/'>AIM Career Institute</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
