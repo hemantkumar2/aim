@@ -4,7 +4,7 @@ import './Jumbotron.css'
 const Jumbotron = () => {
   return (
     <div>
-      <div className=''>
+      <div className='mt-5'>
         <div className="jumbotron-fluid">
           <div className="full-width">
 

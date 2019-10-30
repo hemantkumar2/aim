@@ -11,7 +11,8 @@ import Classroom from '../Classroom'
 import StudentSection from '../StudentSection'
 import Notification from '../Notification'
 import Media from '../Media'
-import Jumbotron from '../Components/Jumbotron'
+import WhyUs from '../WhyUs'
+import Terms from '../Terms'
 
 const Layout = () => {
   return (
@@ -27,6 +28,8 @@ const Layout = () => {
         <Route exact path='/classroom' component={Classroom} />
         <Route exact path='/notification' component={Notification} />
         <Route exact path='/Media' component={Media} />
+        <Route exact path='/why-us' component={WhyUs} />
+        <Route exact path='/terms' components={Terms} />
       </Switch>
       <Footer />
     </div>
