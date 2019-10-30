@@ -25,7 +25,7 @@ const Contact = () => {
                   Near ICICI bank, NH-7, Mangla Chowk,
                 </p>
                 <p className='contact-content text-muted'>
-                  Beside Hotel Marriot, Bilaspur, Chhattisgarh 495001
+                  Bilaspur, Chhattisgarh 495001
                 </p>
               </div>
             </div>
