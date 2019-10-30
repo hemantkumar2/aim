@@ -17,14 +17,14 @@ const Header = () => {
             <Nav.Link><Link className='header-links mr-2 ml-2' to='/contact'>Contact</Link></Nav.Link>
             <div className="vertical"></div>
             <Nav.Link><Link className='header-links mr-2 ml-2' to='/faculty'>Faculty</Link></Nav.Link>
-            <div className="vertical"></div>
-            <Nav.Link><Link className='header-links mr-2 ml-2' to='/goal'>Goal</Link></Nav.Link>
-            <div className="vertical"></div>
-            <Nav.Link><Link className='header-links mr-2 ml-2' to='/media'>Media</Link></Nav.Link>
+            {/* <div className="vertical"></div> */}
+            {/* <Nav.Link><Link className='header-links mr-2 ml-2' to='/goal'>Goal</Link></Nav.Link> */}
+            {/* <div className="vertical"></div> */}
+            {/* <Nav.Link><Link className='header-links mr-2 ml-2' to='/media'>Media</Link></Nav.Link> */}
             <div className="vertical"></div>
             <Nav.Link><Link className='header-links mr-2 ml-2' to='/notification'>Notification</Link></Nav.Link>
-            <div className="vertical"></div>
-            <Nav.Link><Link className='header-links mr-2 ml-2' to='/student-section'>Student-Section</Link></Nav.Link>
+            {/* <div className="vertical"></div> */}
+            {/* <Nav.Link><Link className='header-links mr-2 ml-2' to='/student-section'>Student-Section</Link></Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

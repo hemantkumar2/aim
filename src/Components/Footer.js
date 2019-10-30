@@ -18,7 +18,7 @@ const Footer = () => {
           <div>
             <p className='footer-content my-3'>&copy; 2019 Aim Career Institute</p>
           </div>
-          <div>
+          <div className='container'>
             <a href="https://www.instagram.com" target='blank'>
               <i className="text-white mr-3 fab fa-instagram fa-2x"></i>
             </a>
