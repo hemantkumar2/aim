@@ -6,8 +6,8 @@ const About = () => {
   return (
     <div>
       <Jumbotron />
+      <h1 className='mt-2'>About</h1>
       <AboutContent />
-      <h1>About</h1>
     </div>
   );
 }
