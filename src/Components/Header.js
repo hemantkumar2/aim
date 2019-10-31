@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div>
       {/* <HeadNotification /> */}
-      <Navbar expand="lg" className='header-nav'>
+      <Navbar expand="lg" className='header-nav fixed-top'>
         <div className="row">
           <div className="col-3">
             <Link className='header-nav-brand' to='/'>
@@ -18,7 +18,7 @@ const Header = () => {
         <Navbar.Brand href="#home"><Link className='header-nav-brand mx-md-5' to='/'>AIM</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="mr-auto ml-auto">
             <Nav.Link><Link className='header-links mr-3  ml-5' to='/about'>About</Link></Nav.Link>
             <div className="vertical"></div>
             <Nav.Link><Link className='header-links mr-2 ml-2' to='/classroom'>Classroom</Link></Nav.Link>
