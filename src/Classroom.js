@@ -1,5 +1,6 @@
 import React from 'react';
 import Jumbotron from './Components/Jumbotron'
+import Location from './Components/Location'
 
 const Classroom = () => {
   return (
@@ -46,6 +47,7 @@ const Classroom = () => {
           </div>
         </div>
       </div>
+      <Location />
     </div>
   );
 }

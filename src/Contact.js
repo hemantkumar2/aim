@@ -1,5 +1,6 @@
 import React from 'react';
 import Jumbotron from './Components/Jumbotron'
+import Location from './Components/Location'
 import './Contact.css'
 const Contact = () => {
   return (
@@ -17,21 +18,9 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 mb-2">
-            <div className="card">
-              <div className="card-body">
-                <i class="fas fa-map-marker-alt fa-2x"></i>
-                <p className='contact-content text-muted mt-2'>
-                  Near ICICI bank, NH-7, Mangla Chowk,
-                </p>
-                <p className='contact-content text-muted'>
-                  Bilaspur, Chhattisgarh 495001
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
+      <Location />
     </div>
   );
 }

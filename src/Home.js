@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import AboutContent from './Components/AboutContent'
 import Typical from 'react-typical'
+import Location from './Components/Location'
 import './Home.css'
 const Home = () => {
   return (
@@ -153,6 +154,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Location />
     </div>
   );
 }
