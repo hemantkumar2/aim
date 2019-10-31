@@ -15,7 +15,7 @@ const Faculty = () => {
               <div className="card-body">
                 <div className="row">
                   <div className="col-6">
-                    <img className='rounded-circle m-5' src="assets/img1.png" alt="" />
+                    <img className='rounded-circle circle-width m-5' src="assets/img1.png" alt="" />
                   </div>
                   <div className="col-6 text-left mt-5">
                     <p><strong>Name:</strong> Hemant Nirmalkar</p>
@@ -34,7 +34,7 @@ const Faculty = () => {
               <div className="card-body">
                 <div className="row">
                   <div className="col-6">
-                    <img className='rounded-circle m-5' src="assets/img1.png" alt="" />
+                    <img className='rounded-circle circle-width m-5' src="assets/img1.png" alt="" />
                   </div>
                   <div className="col-6 text-left mt-5">
                     <p><strong>Name:</strong> Hemant Nirmalkar</p>
@@ -52,7 +52,7 @@ const Faculty = () => {
               <div className="card-body">
                 <div className="row">
                   <div className="col-6">
-                    <img className='rounded-circle m-5' src="assets/img1.png" alt="" />
+                    <img className='rounded-circle circle-width m-5' src="assets/img1.png" alt="" />
                   </div>
                   <div className="col-6 text-left mt-5">
                     <p><strong>Name:</strong> Hemant Nirmalkar</p>
@@ -70,7 +70,7 @@ const Faculty = () => {
               <div className="card-body">
                 <div className="row">
                   <div className="col-6">
-                    <img className='rounded-circle m-5' src="assets/img1.png" alt="" />
+                    <img className='rounded-circle circle-width m-5' src="assets/img1.png" alt="" />
                   </div>
                   <div className="col-6 text-left mt-5">
                     <p><strong>Name:</strong> Hemant Nirmalkar</p>

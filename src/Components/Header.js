@@ -2,11 +2,20 @@ import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Header.css'
+
 const Header = () => {
   return (
     <div>
-      <Navbar expand="lg" className='header-nav fixed-top '>
-        <Navbar.Brand href="#home"><Link className='header-nav-brand' to='/'>AIM Career Institute</Link></Navbar.Brand>
+      {/* <HeadNotification /> */}
+      <Navbar expand="lg" className='header-nav'>
+        <div className="row">
+          <div className="col-3">
+            <Link className='header-nav-brand' to='/'>
+              <img className='rounded-circle' src="assets/img1.jpg" alt="" width='60px' />
+            </Link>
+          </div>
+        </div>
+        <Navbar.Brand href="#home"><Link className='header-nav-brand mx-md-5' to='/'>AIM</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">

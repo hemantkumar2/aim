@@ -3,11 +3,10 @@
   /* background: #30e3ca; */
 
 }
-
 .header-nav-brand{
   color: #f1f1f1 ;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 35px;
   font-family: 'Righteous', cursive;
 }
 .header-nav-brand:hover{
@@ -22,13 +21,8 @@
   color: #f1f1f1ce;
   text-decoration: none;
 }
-
 .vertical{
   border-right: 1px solid rgba(241,241,241,.2);
   height: 60px;
   
-}
-.top-info{
-  /* height: 30px; */
-  /* background: red; */
 }
