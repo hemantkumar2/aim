@@ -6,8 +6,32 @@ import './Home.css'
 const Home = () => {
   return (
     <div>
-      <div className='container-fluid carousel-margin'>
+      <div className='container-fluid carousel-margin d-none d-md-block'>
         <Carousel interval='3000'>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="assets/pic6.jpeg"
+              alt="First slide"
+              height="600"
+            />
+            <Carousel.Caption>
+              <p className='typing-font'>
+                <Typical
+                  loop={Infinity}
+                  wrapper='b'
+                  steps={[
+                    'Welcome to AIM Career Institute!', 1000,
+                    'We Shape Your Career!', 1000,
+                    'We are one of the Leading Coaching institutes in Bilaspur.', 1000,
+                    'We provide Coaching for Government Exams.', 1000,
+                    'School coaching is also available for class 6th to 12th.', 1000,
+                  ]}
+                />
+              </p>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -21,10 +45,10 @@ const Home = () => {
                   loop={Infinity}
                   wrapper='b'
                   steps={[
-                    'Welcome to AIM Career Institute', 1000,
+                    'Welcome to AIM Career Institute!', 1000,
                     'We Shape Your Career!', 1000,
-                    'We are one of the Leading Coaching institutes in Bilaspur', 1000,
-                    'We provide Coaching for Government Exams', 1000,
+                    'We are one of the Leading Coaching institutes in Bilaspur.', 1000,
+                    'We provide Coaching for Government Exams.', 1000,
                     'School coaching is also available for class 6th to 12th.', 1000,
                   ]}
                 />
@@ -48,8 +72,8 @@ const Home = () => {
                   steps={[
                     'Welcome to AIM Career Institute', 1000,
                     'We Shape Your Career!', 1000,
-                    'We are one of the Leading Coaching institutes in Bilaspur', 1000,
-                    'We provide Coaching for Government Exams', 1000,
+                    'We are one of the Leading Coaching institutes in Bilaspur.', 1000,
+                    'We provide Coaching for Government Exams.', 1000,
                     'School coaching is also available for class 6th to 12th.', 1000,
                   ]}
                 />
@@ -70,10 +94,10 @@ const Home = () => {
                   loop={Infinity}
                   wrapper='b'
                   steps={[
-                    'Welcome to AIM Career Institute', 1000,
+                    'Welcome to AIM Career Institute!', 1000,
                     'We Shape Your Career!', 1000,
-                    'We are one of the Leading Coaching institutes in Bilaspur', 1000,
-                    'We provide Coaching for Government Exams', 1000,
+                    'We are one of the Leading Coaching institutes in Bilaspur.', 1000,
+                    'We provide Coaching for Government Exams.', 1000,
                     'School coaching is also available from class 6th to 12th.', 1000,
                   ]}
                 />
