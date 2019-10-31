@@ -6,7 +6,7 @@ import './Home.css'
 const Home = () => {
   return (
     <div>
-      <div className='container-fluid carousel-margin d-none d-md-block'>
+      <div className='container carousel-margin d-none d-md-block'>
         <Carousel interval='3000'>
           <Carousel.Item>
             <img
@@ -29,7 +29,7 @@ const Home = () => {
                   ]}
                 />
               </p>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <p>AIM Career Institute, 2019</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -53,7 +53,7 @@ const Home = () => {
                   ]}
                 />
               </p>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <p>AIM Career Institute, 2019</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -78,7 +78,7 @@ const Home = () => {
                   ]}
                 />
               </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>AIM Career Institute, 2019</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -102,7 +102,7 @@ const Home = () => {
                   ]}
                 />
               </p>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <p>AIM Career institute, 2019</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
