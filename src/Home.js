@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <div className='container carousel-margin d-none d-md-block'>
-        <Carousel interval='3000'>
+        <Carousel interval='4000'>
           <Carousel.Item>
             <img
               className="d-block w-100"
