@@ -1,13 +1,13 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import AboutContent from './Components/AboutContent'
+import Typical from 'react-typical'
 import './Home.css'
-
 const Home = () => {
   return (
     <div>
       <div className='container-fluid carousel-margin'>
-        <Carousel interval='2000'>
+        <Carousel interval='3000'>
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -16,7 +16,19 @@ const Home = () => {
               height="600"
             />
             <Carousel.Caption>
-              <h3>First slide label</h3>
+              <p className='typing-font'>
+                <Typical
+                  loop={Infinity}
+                  wrapper='b'
+                  steps={[
+                    'Welcome to AIM Career Institute', 1000,
+                    'We Shape Your Career!', 1000,
+                    'We are one of the Leading Coaching institutes in Bilaspur', 1000,
+                    'We provide Coaching for Government Exams', 1000,
+                    'School coaching is also available for class 6th to 12th.', 1000,
+                  ]}
+                />
+              </p>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -29,7 +41,19 @@ const Home = () => {
             />
 
             <Carousel.Caption>
-              <h3>Second slide label</h3>
+              <p className='typing-font'>
+                <Typical
+                  loop={Infinity}
+                  wrapper='b'
+                  steps={[
+                    'Welcome to AIM Career Institute', 1000,
+                    'We Shape Your Career!', 1000,
+                    'We are one of the Leading Coaching institutes in Bilaspur', 1000,
+                    'We provide Coaching for Government Exams', 1000,
+                    'School coaching is also available for class 6th to 12th.', 1000,
+                  ]}
+                />
+              </p>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -41,7 +65,19 @@ const Home = () => {
               height='600'
             />
             <Carousel.Caption>
-              <h3>Third slide label</h3>
+              <p className='typing-font'>
+                <Typical
+                  loop={Infinity}
+                  wrapper='b'
+                  steps={[
+                    'Welcome to AIM Career Institute', 1000,
+                    'We Shape Your Career!', 1000,
+                    'We are one of the Leading Coaching institutes in Bilaspur', 1000,
+                    'We provide Coaching for Government Exams', 1000,
+                    'School coaching is also available from class 6th to 12th.', 1000,
+                  ]}
+                />
+              </p>
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </Carousel.Caption>
           </Carousel.Item>
