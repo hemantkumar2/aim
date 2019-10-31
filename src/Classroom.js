@@ -9,7 +9,7 @@ const Classroom = () => {
       <h1 className='my-5'>CLASSROOM COURSES</h1>
       <div className="container my-2">
         <div className="row">
-          <div className="col-4">
+          <div className="col-md-4 mt-2 mt">
             <div className="card">
               <div className="bard-body">
                 <h4>School Tuition</h4>
@@ -20,7 +20,7 @@ const Classroom = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-md-4 mt-2 mt">
             <div className="card">
               <div className="bard-body">
                 <h4>SSC/Railway/Vyapam/Bank</h4>
@@ -32,7 +32,7 @@ const Classroom = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-md-4 mt-2 mt">
             <div className="card">
               <div className="bard-body">
                 <h4>College</h4>

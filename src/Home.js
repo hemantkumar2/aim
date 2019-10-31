@@ -110,7 +110,7 @@ const Home = () => {
       <AboutContent />
       <div className="container">
         <div className="row mt-5">
-          <div className="col-4">
+          <div className="col-md-4">
             <div className="card card-background">
               <div className="card-body">
                 <div className="card-title">
@@ -124,7 +124,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-md-4">
             <div className="card card-background">
               <div className="card-body">
                 <div className="card-title">
@@ -137,7 +137,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-md-4">
             <div className="card card-background">
               <div className="card-body">
                 <div className="card-title">

@@ -10,7 +10,7 @@ const Faculty = () => {
       <h1>Faculty</h1>
       <div className="container">
         <div className="row text-left">
-          <div className="col-6">
+          <div className="col-md-6 ">
             <div className="card mb-3">
               <div className="card-body">
                 <div className="row">
@@ -29,7 +29,7 @@ const Faculty = () => {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-md-6">
             <div className="card">
               <div className="card-body">
                 <div className="row">
@@ -47,7 +47,7 @@ const Faculty = () => {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-md-6">
             <div className="card">
               <div className="card-body">
                 <div className="row">
@@ -65,7 +65,7 @@ const Faculty = () => {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-md-6">
             <div className="card">
               <div className="card-body">
                 <div className="row">
