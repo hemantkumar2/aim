@@ -13,6 +13,7 @@ import Notification from '../Notification'
 import Media from '../Media'
 import WhyUs from '../WhyUs'
 import Terms from '../Terms'
+import Tutors from '../Tutors'
 
 const Layout = () => {
   return (
@@ -29,6 +30,7 @@ const Layout = () => {
         <Route exact path='/notification' component={Notification} />
         <Route exact path='/Media' component={Media} />
         <Route exact path='/why-us' component={WhyUs} />
+        <Route exact path='/tutors' components={Tutors} />
         <Route exact path='/terms' components={Terms} />
       </Switch>
       <Footer />

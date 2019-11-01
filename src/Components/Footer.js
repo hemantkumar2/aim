@@ -10,10 +10,10 @@ const Footer = () => {
           <div className="container mt-5">
             <Link to='/about' className='mr-3 footer-content'>About Us</Link>
             <Link to='/why-us' className='mr-3 footer-content'>Why Us</Link>
-            <Link to='/terms' className='mr-3 footer-content'>Terms and Conditions</Link>
+            {/* <Link to='/terms' className='mr-3 footer-content'>Terms and Conditions</Link> */}
             <Link to='/tutors' className='mr-3 footer-content'>Tutors</Link>
-            <Link to='/privacy' className='mr-3 footer-content'>Privacy Policy</Link>
-            <Link to='/faqs' className='mr-3 footer-content'>FAQ's</Link>
+            {/* <Link to='/privacy' className='mr-3 footer-content'>Privacy Policy</Link> */}
+            {/* <Link to='/faqs' className='mr-3 footer-content'>FAQ's</Link> */}
           </div>
           <div>
             <p className='footer-content my-3'>&copy; 2019 Aim Career Institute</p>
