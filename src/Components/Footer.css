@@ -1,5 +1,5 @@
 .footer{
-  height: 200px;
+  height: 150px;
   background: #40514e;
 }
 .footer-content{
@@ -11,18 +11,22 @@
   color: #f9f9f9ad;
   text-decoration: none;
 }
+.bottom-band{
+  height: 50px;
+  background: #e4f9f5;
+}
 
-html, body {
+/* html, body {
   height: 100%;
   margin: 0;
 }
 #wrap {
   padding: 10px;
-  min-height: -webkit-calc(100% - 100px);     /* Chrome */
-  min-height: -moz-calc(100% - 100px);     /* Firefox */
-  min-height: calc(100% - 100px);     /* native */
+  min-height: -webkit-calc(100% - 100px);    
+  min-height: -moz-calc(100% - 100px);     
+  min-height: calc(100% - 100px);     
 }
 .footer {
   position: relative;
   clear:both;
-}
+} */
