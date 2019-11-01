@@ -6,7 +6,8 @@ const Notification = () => {
   return (
     <div>
       <Jumbotron />
-      <h1>Notification</h1>
+      <h1 className='mb-4'>Notification</h1>
+      <img src="assets/updates.svg" alt="" width='400px' />
       <div className="container">
         <div className="row">
           <div className="col-12">

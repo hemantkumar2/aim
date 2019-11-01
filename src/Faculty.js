@@ -8,6 +8,7 @@ const Faculty = () => {
     <div>
       <Jumbotron />
       <h1>Faculty</h1>
+      <img src="assets/teacher.svg" alt="" width='400px' />
       <div className="container">
         <div className="row text-left">
           <div className="col-md-6 ">

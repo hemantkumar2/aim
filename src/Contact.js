@@ -12,7 +12,10 @@ const Contact = () => {
           <div className="col-12">
             <div className="card">
               <div className="card-body">
-                <i class="fas fa-phone-alt fa-2x"></i>
+                <img src="assets/contact.svg" alt="" width='350px' />
+                <p>
+                  <i class="fas fa-phone-alt fa-2x"></i>
+                </p>
                 <p className='contact-content text-muted mt-2'>+91-97525-00860</p>
                 <p className='contact-content text-muted'>+91-7000-94727</p>
               </div>
