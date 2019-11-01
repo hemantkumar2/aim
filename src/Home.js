@@ -114,7 +114,8 @@ const Home = () => {
           <div className="col-md-4">
             <div className="card card-background">
               <div className="card-body">
-                <div className="card-title">
+                <img src="assets/img5.svg" alt="" width='150px' />
+                <div className="card-title mt-3">
                   <strong>Class VI to XII </strong>
                 </div>
                 <div className="card-body">
@@ -128,7 +129,8 @@ const Home = () => {
           <div className="col-md-4">
             <div className="card card-background">
               <div className="card-body">
-                <div className="card-title">
+                <img src="assets/img8.svg" alt="" width='250px' />
+                <div className="card-title mt-3">
                   <strong>Government jobs </strong>
                 </div>
                 <div className="card-body">
@@ -138,10 +140,11 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 ">
             <div className="card card-background">
+              <img className='ml-5' src="assets/img1.svg" alt="" width='250px' />
               <div className="card-body">
-                <div className="card-title">
+                <div className="card-title mt-1">
                   <strong>College Tuition </strong>
                 </div>
                 <div className="card-body">
