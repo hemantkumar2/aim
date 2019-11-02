@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css'
 import { Link } from 'react-router-dom'
 
+
 const Footer = () => {
   return (
     <div d-flex >
@@ -29,7 +30,7 @@ const Footer = () => {
               <Link to='/about' className='mr-3 footer-content'>About Us</Link>
               <Link to='/why-us' className='mr-3 footer-content'>Why Us</Link>
               {/* <Link to='/terms' className='mr-3 footer-content'>Terms and Conditions</Link> */}
-              <Link to='/tutors' className='mr-3 footer-content'>Tutors</Link>
+              <Link to='/faculty' className='mr-3 footer-content'>Tutors</Link>
               {/* <Link to='/privacy' className='mr-3 footer-content'>Privacy Policy</Link> */}
               {/* <Link to='/faqs' className='mr-3 footer-content'>FAQ's</Link> */}
             </div>
