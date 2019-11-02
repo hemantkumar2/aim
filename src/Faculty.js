@@ -20,9 +20,9 @@ const Faculty = () => {
                     <img className='rounded-circle circle-width m-5' src="assets/img1.png" alt="" />
                   </div>
                   <div className="col-6 text-left mt-5">
-                    <p><strong>Name:</strong> Hemant Nirmalkar</p>
+                    <p><strong>Name:</strong> JOHN DOE</p>
                     <p><strong>Subject: </strong>Maths</p>
-                    <p><strong>Qualification:</strong> B Tech (Information Technology)</p>
+                    <p><strong>Qualification:</strong> B Sc. (Physics)</p>
                     <p><strong>Experience:</strong> 5 Years</p>
                   </div>
                 </div>
@@ -39,9 +39,9 @@ const Faculty = () => {
                     <img className='rounded-circle circle-width m-5' src="assets/img1.png" alt="" />
                   </div>
                   <div className="col-6 text-left mt-5">
-                    <p><strong>Name:</strong> Hemant Nirmalkar</p>
+                    <p><strong>Name:</strong> JOHN DOE</p>
                     <p><strong>Subject: </strong>Maths</p>
-                    <p><strong>Qualification:</strong> B Tech (Information Technology)</p>
+                    <p><strong>Qualification:</strong> B Sc. (Physics)</p>
                     <p><strong>Experience:</strong> 5 Years</p>
                   </div>
                 </div>
@@ -57,9 +57,9 @@ const Faculty = () => {
                     <img className='rounded-circle circle-width m-5' src="assets/img1.png" alt="" />
                   </div>
                   <div className="col-6 text-left mt-5">
-                    <p><strong>Name:</strong> Hemant Nirmalkar</p>
+                    <p><strong>Name:</strong> JOHN DOE</p>
                     <p><strong>Subject: </strong>Maths</p>
-                    <p><strong>Qualification:</strong> B Tech (Information Technology)</p>
+                    <p><strong>Qualification:</strong> B Sc. (Physics)</p>
                     <p><strong>Experience:</strong> 5 Years</p>
                   </div>
                 </div>
@@ -75,9 +75,9 @@ const Faculty = () => {
                     <img className='rounded-circle circle-width m-5' src="assets/img1.png" alt="" />
                   </div>
                   <div className="col-6 text-left mt-5">
-                    <p><strong>Name:</strong> Hemant Nirmalkar</p>
+                    <p><strong>Name:</strong> JOHN DOE</p>
                     <p><strong>Subject: </strong>Maths</p>
-                    <p><strong>Qualification:</strong> B Tech (Information Technology)</p>
+                    <p><strong>Qualification:</strong> B Sc. (Physics)</p>
                     <p><strong>Experience:</strong> 5 Years</p>
                   </div>
                 </div>
