@@ -1,5 +1,6 @@
 import React from 'react';
 import Jumbotron from './Components/Jumbotron'
+import './Notification.css'
 
 
 const Notification = () => {
@@ -7,7 +8,8 @@ const Notification = () => {
     <div>
       <Jumbotron />
       <h1 className='mb-4'>Notification</h1>
-      <img src="assets/updates.svg" alt="" width='400px' />
+      <img className='d-none d-lg-block notification-img-margin-left' src="assets/updates.svg" alt="" width='450px' />
+      <img className='d-lg-none' src="assets/updates.svg" alt="" width='250px' />
       <div className="container">
         <div className="row">
           <div className="col-12">

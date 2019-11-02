@@ -8,7 +8,8 @@ const Faculty = () => {
     <div>
       <Jumbotron />
       <h1>Faculty</h1>
-      <img src="assets/teacher.svg" alt="" width='400px' />
+      <img className='d-lg-none' src="assets/teacher.svg" alt="" width='250px' />
+      <img className='d-none d-lg-block faculty-left-margin' src="assets/teacher.svg" alt="" width='450px' />
       <div className="container">
         <div className="row text-left">
           <div className="col-md-6 ">

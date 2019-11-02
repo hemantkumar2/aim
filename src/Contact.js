@@ -12,7 +12,7 @@ const Contact = () => {
           <div className="col-12">
             <div className="card">
               <div className="card-body">
-                <img src="assets/contact.svg" alt="" width='350px' />
+                <img src="assets/contact.svg" alt="" width='250px' />
                 <p>
                   <i class="fas fa-phone-alt fa-2x"></i>
                 </p>
