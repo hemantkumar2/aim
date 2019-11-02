@@ -9,7 +9,7 @@ const Classroom = () => {
       <h1 className='my-5'>CLASSROOM COURSES</h1>
       <div className="container my-2">
         <div className="row">
-          <div className="col-md-4 mt-2 mt">
+          <div className="col-lg-4 mt-2 mt">
             <div className="card">
               <div className="bard-body">
                 <img src="assets/img5.svg" alt="" width='150px' />
@@ -21,7 +21,7 @@ const Classroom = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mt-2 mt">
+          <div className="col-lg-4 mt-2 mt">
             <div className="card">
               <div className="bard-body">
                 <img src="assets/img8.svg" alt="" width='250px' />
@@ -34,7 +34,7 @@ const Classroom = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mt-2 mt">
+          <div className="col-lg-4 mt-2 mt">
             <div className="card">
               <div className="bard-body">
                 <img className='ml-5' src="assets/img1.svg" alt="" width='250px' />
