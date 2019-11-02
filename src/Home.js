@@ -111,7 +111,7 @@ const Home = () => {
       <AboutContent />
       <div className="container">
         <div className="row mt-5">
-          <div className="col-md-4">
+          <div className="col-lg-4">
             <div className="card card-background">
               <div className="card-body">
                 <img src="assets/img5.svg" alt="" width='150px' />
@@ -126,7 +126,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-4">
             <div className="card card-background">
               <div className="card-body">
                 <img src="assets/img8.svg" alt="" width='250px' />
@@ -140,10 +140,10 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 ">
+          <div className="col-lg-4 ">
             <div className="card card-background">
-              <img className='ml-5' src="assets/img1.svg" alt="" width='250px' />
               <div className="card-body">
+                <img className='' src="assets/img1.svg" alt="" width='250px' />
                 <div className="card-title mt-1">
                   <strong>College Tuition </strong>
                 </div>
