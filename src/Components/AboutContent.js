@@ -3,7 +3,9 @@ import './AboutContent.css'
 const AboutContent = () => {
   return (
     <div>
-      <div className="container my-4">
+      <div className="row no-gutters">
+        <div className="col-12">
+        <div className="container my-4">
         <div className="card about-content">
           <div className="card-body">
           <img className='mt-5 mt-md-0'src="assets/about.svg" alt="" width='300px'/>
@@ -21,6 +23,9 @@ const AboutContent = () => {
         </div>
         
       </div>
+        </div>
+      </div>
+      
 
     </div>
   );
