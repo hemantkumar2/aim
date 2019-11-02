@@ -1,10 +1,10 @@
 .footer{
-  height: 150px;
+  height: 110px;
   background: #40514e;
 }
 .footer-content{
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
 }
 .footer-content:hover{
@@ -12,8 +12,9 @@
   text-decoration: none;
 }
 .bottom-band{
-  height: 50px;
-  background: #e4f9f5;
+background: rgba(26, 46, 42, 0.5);
+  height: 40px;
+  margin: 0px;
 }
 
 /* html, body {
