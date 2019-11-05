@@ -7,7 +7,7 @@ const Location = () => {
       <div className="col-12 mb-2">
         <div className="card">
           <div className="card-body">
-            <img className='ml-5' src="assets/pic11.svg" alt="" width='250px' />
+            <img className='ml-5' src="assets/pic11.svg" alt="" width='200px' />
             <p>
               <i class="fas fa-map-marker-alt mt-3 fa-2x"></i>
             </p>

@@ -8,7 +8,7 @@ const AboutContent = () => {
         <div className="container my-4">
         <div className="card about-content">
           <div className="card-body">
-          <img className='mt-5 mt-md-0'src="assets/about.svg" alt="" width='300px'/>
+          <img className='mt-5 mt-md-0'src="assets/about.svg" alt="" width='250px'/>
           <p className='mt-3 about-content-font text-justify mt-2'>
       Aim Career Institute is one of the premier coaching institutes of Bilaspur Chhattisgarh, provides coaching
       classes for class 6th to 12th,and Government jobs like SSC, Railways,Bank and CG Vyapam.
